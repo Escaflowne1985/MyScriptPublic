@@ -1,5 +1,0 @@
-1.base.mp4：背景过场视频 
-2.end.mp4：结尾视频 
-3.logo.png：水印png
-4.start.mp4：开场视频
-5.封面.jpg：视频封面图片
