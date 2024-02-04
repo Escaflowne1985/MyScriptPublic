@@ -1,0 +1,45 @@
+% import syncstart
+=======================================
+syncstart(1) Version {{syncstart.__version__}} \| syncstart
+=======================================
+
+SYNOPSIS
+========
+
+%parser=syncstart.cli_parser()
+Command line help::
+
+%for ln in parser.format_help().splitlines():
+    {{!ln}}
+%end
+
+
+DESCRIPTION
+===========
+
+{{syncstart.__doc__}}
+
+
+INSTALLATION
+============
+
+To install for user only, do::
+
+   pip install --user syncstart
+
+EXAMPLES
+--------
+
+::
+
+  syncstart from_s10.m4a from_gopro.m4p
+  syncstart from_s10.m4a from_gopro.m4p -t 10
+  syncstart from_s10.m4a from_gopro.m4p -t 30
+  syncstart from_s10.m4a from_gopro.m4p -sndl 0
+
+
+License
+-------
+
+MIT
+

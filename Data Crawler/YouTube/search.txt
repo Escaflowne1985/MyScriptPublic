@@ -1,0 +1,22 @@
+yt-dlp -f bestaudio --proxy http://127.0.0.1:1080/ ytsearch100:'T-ara LoveyDovey'
+yt-dlp -f bestaudio --proxy http://127.0.0.1:19180/ https://www.youtube.com/watch?v=wdNQnIdhqhQ
+
+youtube-dl -o %(title)s.%(ext)s -f bestvideo+bestaudio --proxy http://127.0.0.1:54445/ https://www.youtube.com/watch?v=B-bQms2EfVA
+
+
+youtube-dl --proxy http://127.0.0.1:1080/  --get-url "ytsearch:'T-ara LoveyDovey'"
+
+
+youtube-dl --proxy http://127.0.0.1:1080/ "ytsearch10:'T-ara LoveyDovey" -vJ --flat-playlist
+
+
+
+
+yt-dlp -o %(title)s.%(ext)s -f bestvideo+bestaudio --proxy http://127.0.0.1:1080/ "ytsearch10:T-ara LoveyDovey"
+
+
+
+youtube-dl -f bestaudio --proxy http://127.0.0.1:1080/ https://www.youtube.com/shorts/_saQX-hnCjc
+
+
+youtube-dl -o %(title)s.%(ext)s -f bestvideo+bestaudio --proxy http://127.0.0.1:54445/ https://www.youtube.com/watch?v=B-bQms2EfVA

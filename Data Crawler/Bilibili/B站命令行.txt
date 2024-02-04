@@ -1,0 +1,5 @@
+you-get -o ./data https://www.bilibili.com/video/BV1ag411n71z --cookies=C:\Users\pc\AppData\Roaming\Mozilla\Firefox\Profiles\1m36u5iu.default-release\cookies.sqlite
+
+you-get -i ./data https://www.bilibili.com/video/BV1Ka411P798 --cookies=C:\Users\pc\AppData\Roaming\Mozilla\Firefox\Profiles\1m36u5iu.default-release\cookies.sqlite
+
+you-get -o ./data --playlist https://www.bilibili.com/video/BV1ag411n71z --itag=dash-flv720 --cookies=C:\Users\pc\AppData\Roaming\Mozilla\Firefox\Profiles\1m36u5iu.default-release\cookies.sqlite

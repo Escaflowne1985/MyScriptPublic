@@ -1,0 +1,12 @@
+__pycache__
+dist
+build
+
+*.pyc
+*.egg-info
+
+.tags
+
+.coverage
+
+.eggs
