@@ -1,0 +1,8 @@
+autocut -t data.mp4 --whisper-model large-v2
+
+conda activate whisper
+whisper data.mp4 --language Chinese --model_dir Whisper/model --model large-v2
+whisper video/result.mp4 --language Japanese --model_dir ./model --model large-v2
+
+
+H:\MyEnvsProject\whisper\Scripts\whisper.exe data.mp4 --model_dir Whisper/model --model large-v2
