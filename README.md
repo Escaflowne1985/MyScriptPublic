@@ -14,7 +14,7 @@ python 网络爬虫
 | Scrapy News Base   | 『新闻采集』Scrapy框架 |
 | YouTube            | 油管视频下载           |
 | driver             | 模拟器驱动             |
-
+| WebStack-Hugo      | WebStack-Hugo数据配置  |
 
 
 # Data Visualization PyEcharts
